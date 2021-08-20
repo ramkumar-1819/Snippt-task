@@ -1,0 +1,52 @@
+#studentPage{
+    margin: 0 10px;
+}
+#Container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.scheduleSection{
+    width: 20%;
+    margin: 20px 0;
+}
+#bookMeetingButton{
+    height: 5vh;
+    font-size: medium;
+    cursor: pointer;
+    width: 100%;
+}
+.scheduleMeeting{
+    display: flex;
+    flex-direction: column;
+    margin:20px 0;
+}
+.meetingsSection{
+    width: 70%;
+}
+#totalMeeting{
+    margin: 10px;
+    text-align: end;
+}
+.studentTable{
+    width: 100%;
+    margin: auto;
+    max-height: 60vh;
+    overflow:auto;
+}
+#studentPage h2{
+    text-align: center;
+    margin: 25px 0;
+}
+.scheduleMeeting>button{
+    width: 50%;
+    margin: 10px auto;
+    height: 5vh;
+    font-size: medium;
+    cursor: pointer;
+}
+.scheduleMeeting input,select{
+    font-size: medium;
+    margin: 5px 0;
+    height: 5vh;
+}

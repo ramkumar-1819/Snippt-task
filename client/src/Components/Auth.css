@@ -1,0 +1,45 @@
+#LoginPage{
+    width: 25%;
+    background-color: rgb(247, 246, 244);
+    margin: auto;
+    position: relative;
+    top:20vh;
+    border: 1px solid gray;
+}
+#LoginPage>h3{
+    text-align: center;
+    padding: 20px 0;
+    text-decoration: underline;
+}
+#signin{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+.error{
+    text-align: center;
+    color: red;
+}
+.userForm{
+    display: flex;
+    flex-direction: column;
+}
+.userForm>input,.userForm>select{
+    text-indent: 5px;
+    font-size:medium;
+    margin: 10px;
+    height: 5vh;
+}
+.userButton{
+    font-size: large;
+    cursor: pointer;
+    width: 30%;
+    height: 5vh;
+    background-color: gray;
+    outline: none;
+    border:none;
+    margin: 10px auto;
+}
+.userButton:hover{
+    box-shadow: 2px 2px 5px rgb(90, 88, 88);
+}

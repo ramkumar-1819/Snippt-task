@@ -1,0 +1,44 @@
+#facultyPage{
+    margin: 0 10px;
+}
+#facultyPage>h2{
+    text-align: center;
+    margin: 25px 0;
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    border-bottom: 5px solid black;
+}
+.Header>button{
+    width: 70px;
+    cursor: pointer;
+    font-size: medium;
+}
+.Header>button:hover{
+    box-shadow: 2px 2px 5px gray;
+}
+.welcomeMsg{
+    margin: 10px 5px;
+}
+.facultyTable{
+    width: 50%;
+    margin: auto;
+    max-height: 60vh;
+    overflow:auto;
+}
+.meetingRequest{
+    border-collapse: collapse;
+    width: 100%;
+}
+.meetingRequest th,td{
+    text-align: center;
+    padding: 10px;
+    border: 1px double gray;
+}
+.meetingRequest button{
+    width: 70px;
+    height: 4vh;
+    margin: 0 5px;
+}
